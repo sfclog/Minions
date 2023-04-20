@@ -1,0 +1,11 @@
+name: Minions
+version: '${project.version}'
+main: me.sfclog.minions.Main
+api-version: 1.19
+author: SFC_Log, JuLy_2004
+depend: [Vault, SkyBlock-Cross, SimpShopPlus]
+softdepend: [RoseStacker]
+website: www.simpmc.net
+description: Như chúng ta đã biết thì Minions sẽ cung cấp cho bạn một đệ tử có thể giúp bạn trong mọi công việc tuỳ theo nhiệm vụ của từng loại Minion sẽ phân ra thành nhiều loại Minion khác nhau với mỗi công việc khác nhau.
+commands:
+  minion:
