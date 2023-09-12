@@ -74,6 +74,7 @@ public class MinionGui implements Listener {
         Player p = (Player) e.getWhoClicked();
         if (e.getInventory() != null && e.getClickedInventory() != null  && e.getView() != null && e.getView().getTitle().contains(Lang.getlang("Minion.Gui.PC.Title"))) {
 
+
                if (e.getClickedInventory().getType() == InventoryType.PLAYER) {
                  return;
                }
@@ -82,14 +83,11 @@ public class MinionGui implements Listener {
                 if (cache.get(p) != null) {
                     Minion mi = cache.get(p);
                     if (mi != null) {
-                        if(mi.getChestLinker() == null) {
-                            if (MinionInventory.getLockSlot(mi.gettier()).contains(slot)) {
-                                e.setCancelled(true);
-                            }
-                        } else {
+
+                        List<Integer> sl = MinionInventory.getAllSlot(mi.gettier());
+                        if(!sl.contains(sl)) {
                             e.setCancelled(true);
                         }
-
 
                         if (slot == 53) {
                             if (MinionManage.remove(mi)) {

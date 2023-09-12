@@ -76,11 +76,6 @@
         </repository
         >
 
-        <repository>
-            <id>rosewood-repo</id>
-            <url>https://repo.rosewooddev.io/repository/public/</url>
-        </repository>
-
 
         <repository>
             <id>dmulloy2-repo</id>
@@ -144,15 +139,6 @@
             <version>1.7</version>
             <scope>provided</scope>
         </dependency>
-
-
-        <dependency>
-            <groupId>dev.rosewood</groupId>
-            <artifactId>rosestacker</artifactId>
-            <version>1.4.13</version>
-            <scope>provided</scope>
-        </dependency>
-
 
         <dependency>
             <groupId>com.comphenix.protocol</groupId>

@@ -27,9 +27,6 @@ public class MinionManage {
     public static HashSet<Minion> map = new HashSet();
 
 
-
-
-
     public static void load_minion_in_config() {
         if (MinionData.DataFile.getConfigurationSection("Data.Minion") != null) {
             for (String basedata : MinionData.DataFile.getConfigurationSection("Data.Minion").getKeys(false)) {

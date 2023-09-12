@@ -17,19 +17,13 @@ public class GetLocation {
 
     public static Block getBlockMiner(Location loc) {
         for(Block b : getLocation(loc)) {
-            if(b != null && b.getType() != null && LoadSupportBlock.m.contains(b.getType()) && check_stackerblock(b)) {
+            if(b != null && b.getType() != null && LoadSupportBlock.m.contains(b.getType())) {
                return b;
             }
         }
         return null;
     }
 
-    private static boolean check_stackerblock(Block b) {
-        if(Main.rosestack) {
-            return !Main.rsAPI.isBlockStacked(b);
-        }
-        return true;
-    }
 
 
     public static List<Block> getLumberJack(Location center) {

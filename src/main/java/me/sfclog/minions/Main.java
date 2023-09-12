@@ -2,10 +2,8 @@ package me.sfclog.minions;
 
 
 import com.github.unldenis.hologram.HologramPool;
-import dev.rosewood.rosestacker.api.RoseStackerAPI;
 import me.sfclog.minions.MinionSystem.*;
 import me.sfclog.minions.command.MinionCommand;
-import me.sfclog.minions.data.MinionData;
 import me.sfclog.minions.event.PlayerEvent;
 import me.sfclog.minions.lang.Lang;
 import me.sfclog.minions.runnable_core.AsyncRange;
@@ -22,9 +20,6 @@ public class Main extends JavaPlugin {
     public static Economy econ = null;
 
 
-    public static RoseStackerAPI rsAPI;
-
-
     public static boolean rosestack;
 
     public static HologramPool hologramPool;
@@ -33,15 +28,6 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         pl = this;
-
-
-        if (Bukkit.getPluginManager().getPlugin("RoseStacker") != null) {
-            sendlog("§eHook Rose Stack !");
-            rsAPI = RoseStackerAPI.getInstance();
-            rosestack = true;
-        } else {
-            rosestack = false;
-        }
 
         Lang.loadlang();
         setupEconomy();
