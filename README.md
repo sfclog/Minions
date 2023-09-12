@@ -36,9 +36,9 @@ Có 5 loại minion
 Video đầy đủ https://www.youtube.com/watch?v=E6tYRLFM5mA
 
 Lỗi Bug phát hiện sau khi khai tử:
- + Minion đồ tể có thể nhân đôi shulker khi nó nhặt vào
- + Mem có thể lấy item kính ra khỏi minion
- + Shulker bị dupe tại inventory minion bằng một cách nào đó
+ + Minion đồ tể có thể nhân đôi shulker khi nó nhặt vào (Fix bằng cách không cho Minion nhặt)
+ + Mem có thể lấy item kính ra khỏi minion (Có một số bug ở phẩn limit minion inventory do open inv trong luồng async)
+ + Shulker bị dupe tại inventory minion (cũng do limit inventorty gây ra)
 
 Plugin Minion này đã bị khai tử hồi năm 2022 nên mình sẽ OpenSource cho các bạn tham khảo
 
