@@ -20,4 +20,9 @@ Lấy ý tưởng từ Hypixel và ý tưởng từ một số staff và member 
 
 Video đầy đủ https://www.youtube.com/watch?v=E6tYRLFM5mA
 
+Lỗi Bug phát hiện sau khi khai tử:
+ + Minion đồ tể có thể nhân đôi shulker khi nó nhặt vào
+ + Mem có thể lấy item kính ra khỏi minion
+ + Shulker bị dupe tại inventory minion bằng một cách nào đó
+
 Bản quyền thuộc về @SmallFCraft Studio @SimpMC NetWork
