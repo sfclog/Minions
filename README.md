@@ -1,4 +1,4 @@
-# Plugin Minions [PROJECT BỊ KHAI T]
+# Plugin Minions [PROJECT BỊ KHAI TỬ]
 
 
 Đây là một plugin Minion đã khá cũ và có khá nhiều bug và mã không được tối ưu cho lắm (Do mình thiếu kinh nghiệm) 
