@@ -1,4 +1,4 @@
-# Plugin Minions [PROJECT BỊ KHAI TỬ]
+# Plugin Minions [PROJECT BỊ KHAI TỬ] [OPEN SOURCE] [SIMPMC NETWORK]
 
 
 Đây là một plugin Minion đã khá cũ và có khá nhiều bug và mã không được tối ưu cho lắm (Do mình thiếu kinh nghiệm) 
@@ -16,6 +16,7 @@ Nhược điểm:
  ![image](https://github.com/sfclog/Minions/assets/58846067/0245f47f-a159-4a61-bcdd-4995cef6e4d7)
 
    
+
 
 Lấy ý tưởng từ Hypixel và ý tưởng từ một số staff và member trong server dể viết ra plugin này
 
@@ -38,5 +39,12 @@ Lỗi Bug phát hiện sau khi khai tử:
  + Minion đồ tể có thể nhân đôi shulker khi nó nhặt vào
  + Mem có thể lấy item kính ra khỏi minion
  + Shulker bị dupe tại inventory minion bằng một cách nào đó
+
+Plugin Minion này đã bị khai tử hồi năm 2022 nên mình sẽ OpenSource cho các bạn tham khảo
+
+Chân thành cảm ơn:
+ - SFC_Log (Coder)
+ - JuLy_2004 (UI Design, Minion Design, Tester)
+ - SVS (Tester)
 
 Bản quyền thuộc về @SmallFCraft Studio @SimpMC NetWork
